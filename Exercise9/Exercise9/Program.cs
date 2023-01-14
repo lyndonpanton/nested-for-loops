@@ -51,7 +51,7 @@
                 Console.WriteLine();
             }
 
-
+            Console.WriteLine();
             Console.WriteLine("The following part of this program will rows of asterisks of increasing in size up to the given number");
             Console.WriteLine();
 
@@ -83,6 +83,11 @@
 
                 Console.WriteLine();
             }
+
+            Console.WriteLine();
+            Console.WriteLine("Output complete");
+            Console.WriteLine("Thank you for using this program");
+            Console.WriteLine("See more at: https://github.com/lyndonpanton");
         }
     }
 }
