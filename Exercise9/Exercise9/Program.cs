@@ -51,6 +51,38 @@
                 Console.WriteLine();
             }
 
+
+            Console.WriteLine("The following part of this program will rows of asterisks of increasing in size up to the given number");
+            Console.WriteLine();
+
+            int maxLength = 0;
+
+            while (true)
+            {
+                Console.Write("Enter the length of the longest row: ");
+                maxLength = Convert.ToInt32(Console.ReadLine());
+
+                if (maxLength > 0)
+                {
+                    break;
+                }
+
+                Console.WriteLine("Error: The length of the longest row must be greater than 0");
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("Printing the desired rows...");
+            Console.WriteLine();
+
+            for (int i = 1; i <= maxLength; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }
